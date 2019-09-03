@@ -1,0 +1,32 @@
+.container{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+	background:url(images/bg.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+.main{
+	height: 25vh;
+	padding: 20px;
+	display: flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: brown;
+	border-radius: 20px;
+}
+.sub_main{
+	height: 25vh;
+	padding: 20px;
+	display: flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: brown;
+	border-radius: 20px;
+}

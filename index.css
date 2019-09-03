@@ -1,0 +1,38 @@
+body{
+	background-color: rgb(black);
+}
+.header{
+	display: flex;
+	width: 100%;
+	flex-flow: column;
+	border:5px black;
+}
+.logo{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+.sign{
+	padding: 15px;
+	align-items: right;
+	background-color: brown;
+	border: 5px black
+}
+.sign p{
+	border:5px black;
+		color:white;
+		font-size: 20px;
+
+}
+.sign a{
+text-decoration: none;
+color: white;
+font-weight: 200; 	
+}
+.content{
+	background-color: cyan;
+}
+.footer_area{
+	background-color: black;
+	color:white;
+}
